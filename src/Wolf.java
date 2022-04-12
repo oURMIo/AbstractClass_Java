@@ -1,4 +1,4 @@
-public class Wolf extends Animals{
+public class Wolf extends Animal {
     @Override
     public void type() {
         System.out.printf("/// WOLF - ");

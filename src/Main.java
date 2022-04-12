@@ -7,18 +7,26 @@ public class Main {
 
         dog.type();
         dog.danger();
-        dog.feed();
+//        dog.feed();
+        feed(dog);
 
         wolf.type();
         wolf.danger();
-        wolf.feed();
+//        wolf.feed();
+        feed(wolf);
 
         shakal.type();
         shakal.danger();
-        shakal.feed();
+//        shakal.feed();
+        feed(shakal);
 
         giena.type();
         giena.danger();
-        giena.feed();
+//        giena.feed();
+        feed(giena);
+    }
+
+    private static void feed(Object noname) {
+        System.out.printf(" feed it %n %n");
     }
 }

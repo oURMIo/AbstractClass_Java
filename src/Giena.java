@@ -1,4 +1,4 @@
-public class Giena extends Animals {
+public class Giena extends Animal {
     @Override
     public void type() {
         System.out.printf("/// GIENA - ");
