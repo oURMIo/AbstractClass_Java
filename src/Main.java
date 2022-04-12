@@ -26,7 +26,7 @@ public class Main {
         feed(giena);
     }
 
-    private static void feed(Object noname) {
+    private static void feed(Animal noname) {
         System.out.printf(" feed it %n %n");
     }
 }
