@@ -1,10 +1,6 @@
 public class Wolf extends Animal {
     @Override
-    public void type() {
-        System.out.printf("/// WOLF - ");
-    }
-    @Override
-    public void danger() {
-        System.out.println("i'm dangerous, so drop meat");
+    public void name_danger() {
+        System.out.printf("/// GIENA - %n i'm dangerous, so drop meat %n");
     }
 }
