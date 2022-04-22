@@ -5,6 +5,6 @@ public class Dog extends Animal {
 
     @Override
     public void name_danger() {
-        System.out.printf("I'm a " +getName() + " and i'm not dangerous, so put meat in plate %n");
+        System.out.printf("I'm a " + name + " and i'm not dangerous, so put meat in plate %n");
     }
 }
