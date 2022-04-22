@@ -9,5 +9,9 @@ public abstract class Animal {
         return name;
     }
 
+    protected String superMethod(){
+        return "I'm an animal with name " + name;
+    }
+
     public abstract void name_danger();
 }
