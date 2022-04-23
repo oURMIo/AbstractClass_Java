@@ -1,10 +1,10 @@
 public class Shakal extends Animal {
     public Shakal() {
-        super("Shakal");
+        super("Shakal",true);
     }
 
     @Override
-    public void name_danger() {
-        System.out.printf("I'm a " +getName() + " - and i'm dangerous, so put meat in plate %n");
+    public String voice() {
+        return "MAY";
     }
 }

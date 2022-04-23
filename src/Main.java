@@ -5,17 +5,20 @@ public class Main {
         Shakal shakal = new Shakal();
         Giena giena = new Giena();
 
+        dog.name_danger();
         feed(dog);
 
+        wolf.name_danger();
         feed(wolf);
 
+        shakal.name_danger();
         feed(shakal);
 
+        giena.name_danger();
         feed(giena);
     }
 
     private static void feed(Animal pers) {
-        pers.name_danger();
         System.out.printf(" feed it %n %n");
     }
 }

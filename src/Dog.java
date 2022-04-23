@@ -1,18 +1,21 @@
 public class Dog extends Animal {
     public Dog() {
-        super("Dog");
+        super("Dog",false);
     }
 
     @Override
-    public void name_danger() {
-        System.out.printf("I'm a " + name + " and i'm not dangerous, so put meat in plate %n");
-
-        System.out.println(superMethod());
-        System.out.println(super.superMethod());
+    public String voice() {
+        return "GAV";
     }
 
-    protected String superMethod(){
-        return "I'm a dog!";
-    }
-
+//    public void lol() {
+//        System.out.printf("I'm a " + name + " and i'm not dangerous, so put meat in plate %n");
+//
+//        System.out.println(superMethod());
+//        System.out.println(super.superMethod());
+//    }
+//
+//    protected String superMethod(){
+//        return "I'm a dog!";
+//    }
 }
