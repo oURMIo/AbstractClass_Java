@@ -11,16 +11,16 @@ public class Main {
         Shakal shakal = new Shakal();
         Giena giena = new Giena();
 
-        dog.name_danger();
+        dog.nameDanger();
         feed(dog);
 
-        wolf.name_danger();
+        wolf.nameDanger();
         feed(wolf);
 
-        shakal.name_danger();
+        shakal.nameDanger();
         feed(shakal);
 
-        giena.name_danger();
+        giena.nameDanger();
         feed(giena);
     }
 
