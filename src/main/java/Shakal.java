@@ -1,3 +1,8 @@
+/*
+ * Shakal class
+ *
+ */
+
 public class Shakal extends Animal {
     public Shakal() {
         super("Shakal",true);

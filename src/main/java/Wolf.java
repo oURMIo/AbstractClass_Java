@@ -1,3 +1,8 @@
+/*
+ * Wolf class
+ *
+ */
+
 public class Wolf extends Animal {
     public Wolf() {
         super("Wolf",true);
@@ -5,6 +10,6 @@ public class Wolf extends Animal {
 
     @Override
     public String voice() {
-        return "AYYY";
+        return "AYY";
     }
 }

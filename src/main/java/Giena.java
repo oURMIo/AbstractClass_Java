@@ -1,3 +1,8 @@
+/*
+ * Giena class
+ *
+ */
+
 public class Giena extends Animal {
     public Giena() {
         super("Giena",true);
