@@ -1,5 +1,11 @@
+/*
+ * Main class
+ *
+ */
+
 public class Main {
     public static void main(String[] args) {
+        //OBJECT
         Dog dog = new Dog();
         Wolf wolf = new Wolf();
         Shakal shakal = new Shakal();
@@ -18,6 +24,7 @@ public class Main {
         feed(giena);
     }
 
+    //METOD FOR FEED
     private static void feed(Animal pers) {
         System.out.printf(" feed it %n %n");
     }
