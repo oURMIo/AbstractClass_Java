@@ -25,7 +25,7 @@ public abstract class Animal {
     public abstract String voice();
 
     //METOD WRITE TEXT
-    public void name_danger() {
+    public void nameDanger() {
         if (danger) {
             System.out.printf("I'm a " + name + " and I'm dangerous and I say " + voice() + "! So throw meat and run away!!! %n");  /* IF CLASS DANGER*/
         } else {
