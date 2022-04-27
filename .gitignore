@@ -16,3 +16,6 @@ out
 # Default ignored files
 /shelf/
 /workspace.xml
+.gradle
+build
+gradle-7.2
