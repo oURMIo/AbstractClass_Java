@@ -26,6 +26,6 @@ public class Main {
 
     //METOD FOR FEED
     private static void feed(Animal pers) {
-        System.out.printf(" feed it %n %n");
+        System.out.printf(" feed - %s %n %n", pers.name);
     }
 }
