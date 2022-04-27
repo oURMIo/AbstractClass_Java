@@ -21,15 +21,18 @@ public abstract class Animal {
         return danger;
     }
 
-    //METOD VOICE RETURN VOICE
+    /*
+     *   METOD VOICE (more pafas)
+     *   RETURN VOICE
+     */
     public abstract String voice();
 
     //METOD WRITE TEXT
     public void nameDanger() {
         if (danger) {
-            System.out.printf("I'm a " + name + " and I'm dangerous and I say " + voice() + "! So throw meat and run away!!! %n");  /* IF CLASS DANGER*/
+            System.out.printf("I'm a %s and I'm dangerous and I say %s! So throw meat and run away!!! %n",name, voice());  /* IF CLASS DANGER*/
         } else {
-            System.out.printf("I'm a " + name + " and I'm not dangerous and I say " + voice() + "! So put meat in plate %n");       /* IF CLASS NOT DANGER*/
+            System.out.printf("I'm a %s and I'm not dangerous and I say %s! So put meat in plate %n",name, voice());       /* IF CLASS NOT DANGER*/
         }
     }
 /*
