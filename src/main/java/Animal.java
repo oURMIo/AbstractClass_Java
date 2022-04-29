@@ -30,9 +30,9 @@ public abstract class Animal {
     //METOD WRITE TEXT
     public void nameDanger() {
         if (danger) {
-            System.out.printf("I'm a %s and I'm dangerous and I say %s! So throw meat and run away!!! %%n",name, voice());  /* IF CLASS DANGER*/
+            System.out.printf("I'm a %s and I'm dangerous and I say %s! So throw meat and run away!!! %n",name, voice());  /* IF CLASS DANGER*/
         } else {
-            System.out.printf("I'm a %s and I'm not dangerous and I say %s! So put meat in plate %%n",name, voice());       /* IF CLASS NOT DANGER*/
+            System.out.printf("I'm a %s and I'm not dangerous and I say %s! So put meat in plate %n",name, voice());       /* IF CLASS NOT DANGER*/
         }
     }
 /*
