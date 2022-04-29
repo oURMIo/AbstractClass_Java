@@ -4,6 +4,8 @@
  */
 
 public class Main {
+    private static int i = 0;
+
     public static void main(String[] args) {
         //OBJECT
         Dog dog = new Dog();
@@ -23,15 +25,10 @@ public class Main {
         giena.nameDanger();
         feed(giena);
 
-        Animal animal1 = getAnimal1();
-        Animal animal2 = getAnimal2();
-        Animal animal3 = getAnimal3();
-        Animal animal4 = getAnimal4();
-
-        animal1.nameDanger();
-        animal2.nameDanger();
-        animal3.nameDanger();
-        animal4.nameDanger();
+        getAnimal().nameDanger();
+        getAnimal().nameDanger();
+        getAnimal().nameDanger();
+        getAnimal().nameDanger();
     }
 
     //METOD FOR FEED
@@ -39,19 +36,17 @@ public class Main {
         System.out.printf(" feed - %s %n %n", pers.name);
     }
 
-    private static Animal getAnimal1() {
-        return new Dog();
-    }
-
-    private static Animal getAnimal2() {
-        return new Giena();
-    }
-
-    private static Animal getAnimal3() {
-        return new Shakal();
-    }
-
-    private static Animal getAnimal4() {
+    private static Animal getAnimal() {
+        if (i == 0) {
+            i += 1;
+            return new Dog();
+        } else if (i == 1) {
+            i += 1;
+            return new Giena();
+        } else if (i == 2) {
+            i += 1;
+            return new Shakal();
+        }
         return new Wolf();
     }
 }
