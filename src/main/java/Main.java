@@ -47,6 +47,7 @@ public class Main {
             i += 1;
             return new Shakal();
         }
+        i = 0;
         return new Wolf();
     }
 }
