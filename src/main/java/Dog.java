@@ -9,6 +9,11 @@ public class Dog extends Animal {
     }
 
     @Override
+    public int run() {
+        return 3;
+    }
+
+    @Override
     public String voice() {
         return "GAV";
     }
