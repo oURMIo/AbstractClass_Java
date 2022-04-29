@@ -24,9 +24,9 @@ public class Main {
         feed(giena);
 
         Animal animal1 = getAnimal1();
-        Animal animal2 = getAnimal1();
-        Animal animal3 = getAnimal1();
-        Animal animal4 = getAnimal1();
+        Animal animal2 = getAnimal2();
+        Animal animal3 = getAnimal3();
+        Animal animal4 = getAnimal4();
 
         animal1.nameDanger();
         animal2.nameDanger();
